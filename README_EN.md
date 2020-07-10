@@ -68,21 +68,21 @@ MultiWaveHeader is an android wave view that can be highly customized for each w
 ```java
     MultiWaveHeader waveHeader = findViewById(R.id.waveHeader);
 
-    waveHeader.setStartColor(R.color.colorPrimary);
-    waveHeader.setCloseColor(R.color.colorPrimaryDark);
-    waveHeader.setColorAlpha(.5f);
+    waveHeader.setStartColorId(R.color.colorPrimary);
+    waveHeader.setCloseColorId(R.color.colorPrimaryDark);
+    waveHeader.setColorAlpha(0.45f);
 
     waveHeader.setWaveHeight(50);
-    waveHeader.setGradientAngle(360);
-    waveHeader.setProgress(.8f);
-    waveHeader.setVelocity(1f);
-    waveHeader.setScaleY(-1f);
+    waveHeader.setGradientAngle(45);
+    waveHeader.setProgress(1f);
+    waveHeader.setVelocity(.1f);
+    waveHeader.setScaleY(1f);
 
-    waveHeader.setWaves("PairWave");
+    waveHeader.setWaves("-2");
 
-    waveHeader.start();
-    waveHeader.stop();
-    waveHeader.isRunning();
+   // waveHeader.start();
+   // waveHeader.stop();
+  //  waveHeader.isRunning();
 
 ```
 
